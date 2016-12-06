@@ -2,6 +2,7 @@
 
 ### Overview
 
+This repo contains learning material which is not meant for production use. 
 A simple R function that calculates standard deviation when given a numeric/integer vector.
 
 ### Installation
