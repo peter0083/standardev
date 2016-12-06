@@ -1,0 +1,24 @@
+---
+title: "standard deviation calculator"
+author: "Peter Lin and Christopher Morano"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{standard deviation calculator}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+A simple R function that calculates standard deviation when given a numeric/integer vector.
+
+Please see example usage below:
+
+First, build a vector for the numbers you want to calculate standard deviation
+```{r}
+vector_NHL_player_salaries <- c(4060000, 6590000, 5640000)
+```
+
+Secondly, use this vector as an input for standard_deviation function
+```{r}
+standard_deviation(vector_NHL_player_salaries)
+```
