@@ -6,7 +6,7 @@ library('standardev')
 
 base::assign(".oldSearch", base::search(), pos = 'CheckExEnv')
 cleanEx()
-nameEx("hello")
+nameEx("standardev")
 ### * hello
 
 flush(stderr()); flush(stdout())
@@ -16,10 +16,6 @@ flush(stderr()); flush(stdout())
 ### Aliases: hello
 
 ### ** Examples
-
-hello()
-
-
 
 cleanEx()
 nameEx("standard_deviation")
