@@ -7,13 +7,8 @@ library('standardev')
 base::assign(".oldSearch", base::search(), pos = 'CheckExEnv')
 cleanEx()
 nameEx("standardev")
-### * hello
 
 flush(stderr()); flush(stdout())
-
-### Name: hello
-### Title: Hello, World!
-### Aliases: hello
 
 ### ** Examples
 
