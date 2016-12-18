@@ -12,7 +12,6 @@
 #'
 #' @examples
 #' vector_NHL_player_salaries <- c(4060000, 6590000, 5640000)
-#' standard_deviation(vector_NHL_player_salaries)
 #' # use this vector as an input for standard_deviation function#' standard_deviation(vector_NHL_player_salaries)
 standard_deviation <- function(x) {
   if (length(x) == 0) stop("ZERO ERROR: standard_deviation cannot an empty list/vector as an input", call. = TRUE)
@@ -33,7 +32,6 @@ standard_deviation <- function(x) {
 #'
 #' @examples
 #' vector_NHL_player_salaries <- c(4060000, 6590000, 5640000)
-#' standard_error(vector_NHL_player_salaries)
 #' # use this vector as an input for standard_error function#' standard_error(vector_NHL_player_salaries)
 standard_error <- function(x) {
   standard_deviation(x)/sqrt(length(x))

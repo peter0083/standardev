@@ -2,15 +2,15 @@ Package: standardev
 Type: Package
 Title: Standard Deviation Calculator
 Version: 0.0.1
-Authors@R: c(
-person("Peter", "Lin", email = "peter.tingyao@alumni.ubc.ca", role = c("aut", "cre")))
+Author: Peter Lin
 Maintainer: Peter Lin <peter.tingyao@alumni.ubc.ca>
 Description: This R package is built to help simplify the process of calculating standard deviation and standard error of a vector of numerics/integers.
 License: MIT license
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 5.0.1
-Suggests: testthat,
-    knitr,
-    rmarkdown
+Suggests: testthat, knitr, rmarkdown
 VignetteBuilder: knitr
+NeedsCompilation: no
+Packaged: 2016-12-18 01:43:00 UTC; Peter
+Built: R 3.3.1; ; 2016-12-18 01:52:58 UTC; windows

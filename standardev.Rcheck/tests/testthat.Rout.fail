@@ -1,0 +1,50 @@
+
+R version 3.3.1 (2016-06-21) -- "Bug in Your Hair"
+Copyright (C) 2016 The R Foundation for Statistical Computing
+Platform: i386-w64-mingw32/i386 (32-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> library(testthat)
+Warning message:
+package 'testthat' was built under R version 3.3.2 
+> library(standardev)
+> 
+> context("calculating standard deviation")
+> 
+> test_that("standard_deviation calculates correct output", {
++   x <- c(13, 23, 12, 44, 55)
++   n <- length(x)
++   mean = sum(x) / n
++   ssq <- sum((x-mean)^2)
++   stddev1 = sqrt(ssq/n)
++   return(stddev1)
++ 
++   test_output <- standard_deviation(x)
++ 
++   expect_identical(standard_deviation(x), stddev1)
++   expect_identical(test_output, stddev1)
++ })
+> 
+> 
+> test_that("standard_deviation cannot an empty list/vector as an input", {
++   x <- c()
++   standard_deviation(x)
++   
++   expect_error(standard_deviation(x))
++ })
+Error: Test failed: 'standard_deviation cannot an empty list/vector as an input'
+* ZERO ERROR: standard_deviation cannot an empty list/vector as an input
+1: standard_deviation(x)
+2: stop("ZERO ERROR: standard_deviation cannot an empty list/vector as an input", call. = TRUE)
+Execution halted

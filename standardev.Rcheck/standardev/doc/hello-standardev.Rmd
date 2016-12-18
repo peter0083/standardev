@@ -1,6 +1,6 @@
 ---
 title: "standard deviation calculator"
-author: "Peter Lin"
+author: "Peter Lin and Christopher Morano"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
