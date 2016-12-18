@@ -3,7 +3,9 @@ Type: Package
 Title: Standard Deviation Calculator
 Version: 0.0.1
 Authors@R: c(
-person("Peter", "Lin", email = "peter.tingyao@alumni.ubc.ca", role = c("aut", "cre")))
+    person("Peter", "Lin", email = "peter.tingyao@alumni.ubc.ca", role = c("aut", "cre")),
+    person("Chris", "Morano", email = "chrismorano@hotmail.com", role = c("ctb"))
+    )
 Maintainer: Peter Lin <peter.tingyao@alumni.ubc.ca>
 Description: This R package is built to help simplify the process of calculating standard deviation and standard error of a vector of numerics/integers.
 License: MIT license
