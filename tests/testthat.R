@@ -19,17 +19,13 @@ test_that("standard_deviation calculates correct output", {
 
 
 test_that("standard_deviation cannot an empty list/vector or 'Na' element as an input", {
-  x <- c("Na")
-  standard_deviation(x)
-
-  expect_identical(standard_deviation(x), standard_deviation(x))
+  x <- c()
+  expect_error(standard_deviation(x))
 })
 
 test_that("standard_deviation: input x has to be a numeric vector or list", {
   x <- c("a", 6, "q")
-  standard_deviation(x)
-
-  expect_identical(standard_deviation(x), standard_deviation(x))
+  expect_error(standard_deviation(x))
 })
 
 test_that("standard_deviation: input can be a column from a data frame", {
