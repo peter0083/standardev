@@ -18,8 +18,8 @@ test_that("standard_deviation calculates correct output", {
 })
 
 
-test_that("standard_deviation cannot an empty list/vector as an input", {
-  x <- c()
+test_that("standard_deviation cannot an empty list/vector or 'Na' element as an input", {
+  x <- c("Na")
   standard_deviation(x)
 
   expect_identical(standard_deviation(x), standard_deviation(x))
