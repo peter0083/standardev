@@ -40,5 +40,6 @@ standard_deviation <- function(x) {
 #' }
 #' # use this vector as an input for standard_error function#' standard_error(vector_NHL_player_salaries)
 standard_error <- function(x) {
-  standard_deviation(x)/sqrt(length(x))
+  se <- standard_deviation(x)/sqrt(length(x))
+  se
 }
