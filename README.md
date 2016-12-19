@@ -1,5 +1,7 @@
 # R package: standardev
 
+[![Build Status](https://travis-ci.org/peter0083/standardev2.svg?branch=master)](https://travis-ci.org/peter0083/standardev2)
+
 ### Overview
 
 This repo contains learning material which is not meant for production use. 
