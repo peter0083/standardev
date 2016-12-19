@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.9.7)  17 DEC 2016 17:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.9.7)  18 DEC 2016 18:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -781,14 +781,14 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20.74> not available
  (c:/texlive/2016/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
 )
-LaTeX Font Info:    Try loading font information for T1+zi4 on input line 21.
+LaTeX Font Info:    Try loading font information for T1+zi4 on input line 20.
 
 (c:/texlive/2016/texmf-dist/tex/latex/inconsolata/t1zi4.fd
 File: t1zi4.fd 2014/06/22 T1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 31.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 31.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 33.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 33.
 
 (c:/texlive/2016/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
@@ -811,15 +811,12 @@ File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
 
 
 {c:/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(c:/texlive/2016/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
-)
-LaTeX Font Info:    Try loading font information for TS1+zi4 on input line 84.
+LaTeX Font Info:    Try loading font information for TS1+zi4 on input line 68.
 
 (c:/texlive/2016/texmf-dist/tex/latex/inconsolata/ts1zi4.fd
 File: ts1zi4.fd 2014/06/22 Fontinst v1.933 font definitions for TS1/zi4.
 )
-Overfull \hbox (90.78094pt too wide) in paragraph at lines 84--84
+Overfull \hbox (90.78094pt too wide) in paragraph at lines 68--68
  []\T1/zi4/m/n/9 # use this vector as an input for standard_deviation function#
 \TS1/zi4/m/n/9 ' \T1/zi4/m/n/9 standard_deviation(vector_NHL_player_salaries)[]
  
@@ -827,42 +824,42 @@ Overfull \hbox (90.78094pt too wide) in paragraph at lines 84--84
 
 (c:/texlive/2016/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
-) [2]
-Overfull \hbox (54.78094pt too wide) in paragraph at lines 113--113
+)
+Overfull \hbox (54.78094pt too wide) in paragraph at lines 97--97
  []\T1/zi4/m/n/9 # use this vector as an input for standard_error function#\TS1
 /zi4/m/n/9 ' \T1/zi4/m/n/9 standard_error(vector_NHL_player_salaries)[] 
  []
 
-(./Rd2.ind [3]
+(./Rd2.ind [2]
 
 LaTeX Font Warning: Font shape `T1/zi4/m/it' undefined
-(Font)              using `T1/zi4/m/n' instead on input line 10.
+(Font)              using `T1/zi4/m/n' instead on input line 6.
 
-[4
+[3
 
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 117.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 117.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 101.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 101.
  (./Rd2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 117.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 117.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 101.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 101.
 Package rerunfilecheck Info: File `Rd2.out' has not changed.
-(rerunfilecheck)             Checksum: 499ACDF7BF171EDE418780B528E592D4;274.
+(rerunfilecheck)             Checksum: EA52C8C88A66C84A26C1B9B7649BFED9;232.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 117.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 101.
  ) 
 Here is how much of TeX's memory you used:
- 6467 strings out of 493013
- 91146 string characters out of 6137009
- 174202 words of memory out of 5000000
- 9877 multiletter control sequences out of 15000+600000
+ 6458 strings out of 493013
+ 90974 string characters out of 6137009
+ 172202 words of memory out of 5000000
+ 9876 multiletter control sequences out of 15000+600000
  38160 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,5n,27p,220b,592s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,5n,27p,220b,489s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2016/texmf-dist/fonts/enc/dvips/inconsolata/i4-ts1.enc}{c:/texliv
 e/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2016/texmf-dist/fonts
 /enc/dvips/inconsolata/i4-t1-0.enc}<c:/texlive/2016/texmf-dist/fonts/type1/publ
@@ -871,10 +868,10 @@ ic/inconsolata/Inconsolata-zi4r.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw
 fb><c:/texlive/2016/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/201
 6/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2016/texmf-dist/fonts
 /type1/urw/times/utmri8a.pfb>
-Output written on Rd2.pdf (4 pages, 73857 bytes).
+Output written on Rd2.pdf (3 pages, 71290 bytes).
 PDF statistics:
- 112 PDF objects out of 1000 (max. 8388607)
- 99 compressed objects within 1 object stream
- 31 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 97 PDF objects out of 1000 (max. 8388607)
+ 85 compressed objects within 1 object stream
+ 25 named destinations out of 1000 (max. 500000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
